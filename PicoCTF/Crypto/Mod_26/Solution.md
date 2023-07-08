@@ -1,5 +1,7 @@
 # Mod 26
 
+[toc]
+
 
 
 ## Question
@@ -18,16 +20,12 @@ ROT13 ("rotate by 13 places", usually hyphenated ROT-13) is a simple Caesar ciph
 
 ![ROT13](././rot13.png)
 
-[`reference here`](https://www.cs.mcgill.ca/~rwest/wikispeedia/wpcd/wp/r/ROT13.htm)
-
 ### Example
 
 ```
 Before encode : We are a team
 After decode : Jr ner n grnz
 ```
-
-<div id='1'>Hello</div>
 
 ### Code
 
