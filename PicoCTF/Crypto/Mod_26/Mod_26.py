@@ -1,12 +1,6 @@
 
-import string
-
 # String to decode
 str_decode = "cvpbPGS{arkg_gvzr_V'yy_gel_2_ebhaqf_bs_ebg13_MAZyqFQj}"
-
-strlist = string.ascii_uppercase
-for i in range(13):
-    print("'%s' : '%s', "%(strlist[i+13], strlist[i]))
 
 # Create a mapping dictionary
 rot13_map = {
@@ -64,8 +58,11 @@ rot13_map = {
     'Z' : 'M'
 }
 
+print("Result : ", end='')
+
+# Using for loop to decode character one by one
 for i in str_decode :
     try :
         print(rot13_map[i], end='')
-    except :
+    except :    # if the character is not in mapping dictionary, then it will print out directly (example : The symbol { } )
         print(i, end='')
