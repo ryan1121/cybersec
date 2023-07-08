@@ -1,2 +1,2 @@
 # cybersec
-This is a repository for cybersecurity
+This is a repository for cybersecurity's information collection
