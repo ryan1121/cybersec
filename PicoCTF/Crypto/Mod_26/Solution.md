@@ -101,7 +101,7 @@ for i in str_decode :
     except :    # if the character is not in mapping dictionary, then it will print out directly (example : The symbol { } )
         print(i, end='')
 ```
-
+After that, we just need to run the **Python** script to get the result.
 ### Result
 
 ```
