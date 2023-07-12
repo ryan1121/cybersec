@@ -1,4 +1,4 @@
-#Hack The Box Notes
+# Hack The Box Notes
 
 [toc]
 
@@ -37,24 +37,25 @@ nmap -p 6300-700 {target_IP}
 ## smbclient
 **smbclient** is a command-line utility that provides an FTP-like interface for accessing SMB/CIFS resources on servers. 
 SMB/CIFS (Server Message Block/Common Internet File System) is a network protocol used for sharing files, printers, and other resources between computers on a network.
-- Allows us to browse and access shared folders and files on remote servers that use the SMB/CIFS protocol. 
-1. Connect to a share (user will be prompted for password; `exit` to quit the session):
-```
-smbclient //server/share
-```
-
-2. Connect with a different username:
-```
-smbclient //server/share --user username
-```
-
-3. Connect with a different workgroup:
-```
-smbclient //server/share --workgroup domain --user username
-```
-
-4. Connect with a username and password:
-```
-smbclient //server/share --user username%password
-```
+- Allows us to browse and access shared folders and files on remote servers that use the SMB/CIFS protocol.
+  
+  1. Connect to a share (user will be prompted for password; `exit` to quit the session):
+  ```
+  smbclient //server/share
+  ```
+  
+  2. Connect with a different username:
+  ```
+  smbclient //server/share --user username
+  ```
+  
+  3. Connect with a different workgroup:
+  ```
+  smbclient //server/share --workgroup domain --user username
+  ```
+  
+  4. Connect with a username and password:
+  ```
+  smbclient //server/share --user username%password
+  ```
 
