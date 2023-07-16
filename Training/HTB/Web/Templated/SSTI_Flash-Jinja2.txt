@@ -1,0 +1,7 @@
+https://medium.com/@grumpyTofu/templated-hack-the-box-technical-write-up-f067edd34ca5
+
+https://medium.com/@nyomanpradipta120/ssti-in-flask-jinja2-20b068fdaeee
+
+https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Template%20Injection/README.md#jinja2---basic-injection
+
+
