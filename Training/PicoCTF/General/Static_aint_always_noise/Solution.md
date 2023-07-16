@@ -37,7 +37,7 @@ There are two txt files generated after it : static.ltdis.strings.txt and static
 
 Let's get into the first txt file to look forward for the flag.
 ```
-238 /lib64/ld-linux-x86-64.so.2
+    238 /lib64/ld-linux-x86-64.so.2
     361 libc.so.6
     36b puts
     370 __cxa_finalize
