@@ -9,7 +9,8 @@ Files can always be changed in a secret way. Can you find the flag? cat.jpg
 
 ## Solution
 First, let's see the details at this file.
-We can use this (website)[https://29a.ch/photo-forensics/#strings] to get the strings from the image file.
+We can use this [website](https://29a.ch/photo-forensics/#strings) to get the strings from the image file.
+
 ```
 JFIF
 0Photoshop 3.0
@@ -40,7 +41,7 @@ We can saw that there is a suspicious strings which might be a base64 encoded st
 ```
 cGljb0NURnt0aGVfbTN0YWRhdGFfMXNfbW9kaWZpZWR9
 ```
-Let's try to decode it using this (website)[https://gchq.github.io/CyberChef/]
+Let's try to decode it using this [website](https://gchq.github.io/CyberChef/)
 
 Then we get the flag ! :D
 ```
