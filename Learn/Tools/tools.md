@@ -18,3 +18,13 @@ Some common parameters using in `dirbuster` command
 ```
 gobuster dir -u https://mysite.com/path/to/folder -c ‘session=123456’ -t 50 -w /usr/share/dirb/common.txt -x .php,.html
 ```
+
+<hr>
+
+## nikto
+Vulnerability scanning
+
+```
+nikto -h http://192.168.1.14 /
+```
+
