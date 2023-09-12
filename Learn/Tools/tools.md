@@ -4,6 +4,8 @@ There are some basic information about the tools and some example of command usu
 [toc]
 
 ## dirbuster
+DirBuster is a multi threaded java application designed to brute force directories and files names on web/application servers.
+
 Some common parameters using in `dirbuster` command
 
 ```
