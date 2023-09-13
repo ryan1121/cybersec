@@ -13,7 +13,6 @@ https://29a.ch/photo-forensics/#strings
 https://infosecwriteups.com/beginners-ctf-guide-finding-hidden-data-in-images-e3be9e34ae0d
 
 
-
 ## CyberChef
 
 https://gchq.github.io/CyberChef/
@@ -23,3 +22,7 @@ The Cyber Swiss Army Knife CyberChef is a simple, intuitive web app for carrying
 ## XML External Entity (XXE) Injection Payload List
 https://github.com/payloadbox/xxe-injection-payload-list
 
+## Free Password Hash Cracker
+https://crackstation.net/
+
+ Supports: LM, NTLM, md2, md4, md5, md5(md5_hex), md5-half, sha1, sha224, sha256, sha384, sha512, ripeMD160, whirlpool, MySQL 4.1+ (sha1(sha1_bin)), QubesV3.1BackupDefaults 
