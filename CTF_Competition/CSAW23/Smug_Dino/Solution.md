@@ -13,7 +13,7 @@ When we go to http://web.csaw.io:3009/, we will saw the home page with three But
 1. Home
 2. Hint
 3. Flag?
-![home_page](../src/img/smug_dino_homepage.png)
+![home_page](../../../src/img/smug_dino_homepage.png)
 
 
 After clicked `Hint` button, we are directed to `http://web.csaw.io:3009/succeed_hint`, the page is asking us to enter the `Server name` & `Server Version` before we can get the hint.
@@ -24,7 +24,7 @@ We can get the server's name and version from the Response Header :
 ```
 Server : nginx/1.17.6
 ```
-![response_head](../src/img/server_name_version.png)
+![response_head](../../../src/img/server_name_version.png)
 We just enter the server's name and version, then we got the Hints
 
 ```
