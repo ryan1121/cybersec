@@ -1,13 +1,22 @@
 # Crypto
-> Here are notes on cryptography using Python
+> Here are notes on Cryptography using Python
 
 [toc]
 
 ## ASCII
 In Python, the chr() function can be used to convert an ASCII ordinal number to a character (the ord() function does the opposite).
 
+Below is a list of ASCII ordinal numbers :
 ```
 [99, 114, 121, 112, 116, 111, 123, 65, 83, 67, 73, 73, 95, 112, 114, 49, 110, 116, 52, 98, 108, 51, 125]
+```
+
+Example :
+```python
+print(chr(65))	# Output : A
+
+
+print(ord("A"))	# Output : 64
 ```
 
 ## Hex to bytes
@@ -34,7 +43,7 @@ hex_data = byte_data.hex()
 
 Below is a bytes data :
 
-```
+```python
 byte_data = b'r\xbc\xa9\xb6\x8f\xc1j\xc7\xbe\xeb\x8f\x84\x9d\xca\x1d\x8ax>\x8a\xcf\x96y\xbf\x92i\xf7\xbf'
 
 # encode it into Base64
