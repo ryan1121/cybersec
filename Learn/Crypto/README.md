@@ -53,11 +53,17 @@ Below is a bytes data :
 ```python
 import base64
 
-byte_data = b'r\xbc\xa9\xb6\x8f\xc1j\xc7\xbe\xeb\x8f\x84\x9d\xca\x1d\x8ax>\x8a\xcf\x96y\xbf\x92i\xf7\xbf'
+str_data = "hello world"
 
-# encode it into Base64
+# Convert into bytes
+byte_data = str_data.encode("utf-8")
 
-b64_data = base64.b64encode(bytes_data)
+# Encoded using base64
+encoded_data = base64.b64encode(byte_data)
+
+# Decoded using base64
+decoded_data = base64.b64decode(encoded_data)
+
 ```
 
 ## PyCryptodome library
