@@ -51,10 +51,11 @@ hex_data = byte_data.hex()
 Below is a bytes data :
 
 ```python
+import base64
+
 byte_data = b'r\xbc\xa9\xb6\x8f\xc1j\xc7\xbe\xeb\x8f\x84\x9d\xca\x1d\x8ax>\x8a\xcf\x96y\xbf\x92i\xf7\xbf'
 
 # encode it into Base64
-import base64
 
 b64_data = base64.b64encode(bytes_data)
 ```
@@ -106,7 +107,7 @@ print(xor(a,b)) # Output : b'\x00\x0c\x04\x05\x07I\x1f\x06\x1a\x05\x0c'
 Telnet is a networking protocol that follows a client-server model. It uses TCP as its underlying communication protocol. It is typically used to start and a remote command-line session, typically on a server.  
 
 Example :
-```
+```python
 import telnetlib
 
 HOST_IP = "mercury.picoctf.net"
