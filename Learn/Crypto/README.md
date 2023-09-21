@@ -1,5 +1,12 @@
 # Crypto
-> Here are notes on Cryptography using Python
+Here are notes on Cryptography using Python
+
+Message usually can be converted into ASCII bytes, hex bytes, hexadecimal(base-16) and decimal(base-10) :
+> message: HELLO
+> ascii bytes: [72, 69, 76, 76, 79]
+> hex bytes: [0x48, 0x45, 0x4c, 0x4c, 0x4f]
+> base-16: 0x48454c4c4f
+> base-10: 310400273487 
 
 [toc]
 
@@ -52,3 +59,75 @@ import base64
 b64_data = base64.b64encode(bytes_data)
 ```
 
+## PyCryptodome library
+Install :
+
+```
+pip install pycryptodome
+```
+
+### bytes_to_long() & long_to_bytes()
+`bytes_to_long()` - convert bytes string to long
+`long_to_bytes()` - convert long to byte string
+
+Example : 
+
+```python
+from Crypto.Util.number import *
+
+
+print(long_to_bytes(126943972912743))   # Output : string
+
+print(bytes_to_long(b"string"))         # Output : 126943972912743
+
+```
+
+## pwntools library
+Install :
+
+```
+pip install pwntools
+```
+### xor()
+For longer binary numbers we XOR bit by bit: 0110 ^ 1010 = 1100
+The Python `pwntools` library has a convenient `xor()` function that can XOR together data of different types and lengths.
+
+```python
+from pwn import *
+
+a = "hello world"
+b = "hi"
+
+print(xor(a,b)) # Output : b'\x00\x0c\x04\x05\x07I\x1f\x06\x1a\x05\x0c'
+
+```
+
+## telnetlib library
+Telnet is a networking protocol that follows a client-server model. It uses TCP as its underlying communication protocol. It is typically used to start and a remote command-line session, typically on a server.  
+
+Example :
+```
+import telnetlib
+
+HOST_IP = "mercury.picoctf.net"
+HOST_PORT = 34938
+tn = telnetlib.Telnet(HOST_IP, HOST_PORT)
+
+for i in range(9):	# the number should be changed according to the situation
+	# Read output line by line
+	print(tn.read_until(b"\n"))
+
+# read until the specified string appeared
+tn.read_until(b"Choose an option: ")
+
+# send message to the server
+tn.write("0".encode("ascii") + b"\n")
+
+tn.read_until(b"How many do you want to buy?")
+
+tn.write("1".encode("ascii") + b"\n")
+
+print(tn.read_all().decode('ascii'))
+
+
+```
