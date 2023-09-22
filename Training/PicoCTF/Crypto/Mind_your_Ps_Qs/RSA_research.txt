@@ -1,5 +1,0 @@
-https://www.encryptionconsulting.com/education-center/what-is-rsa
-
-https://www.dcode.fr/rsa-cipher
-
-https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/modular-inverses
