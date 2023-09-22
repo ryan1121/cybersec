@@ -11,13 +11,13 @@
 As the description mentioned, it is using **RSA Cryptosystem**.
 After download the `values` file, we got the `cipher(c)`, `n(the product of p and q)` and `e(encryption key)`
 
-First, we need to find the two prime numbers (p and q), we can use (FactorDB)[http://factordb.com] to get them.
+First, we need to find the two prime numbers (p and q), we can use [FactorDB](http://factordb.com) to get them.
 Then, we got it :
 ```
 1280678415...23<82> = 1899107986527483535344517113948531328331<40> · 674357869540600933870145899564746495319033<42>
 ```
 
-Next, I wrote a **Python** code to solve it : (solve.py)[./solve.py]
+Next, I wrote a **Python** code to solve it : [solve.py](./solve.py)
 
 ```python
 from Crypto.Util.number import inverse, long_to_bytes
