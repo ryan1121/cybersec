@@ -18,7 +18,9 @@ Take a look for the solving step below :
 1. First, we need to look at the left hand side, and find the row with the first key : S
 2. Then, find the first encrypted alphabet in the same row : U
 3. After that, we got the decrypted alphabet at the top of the column : C
+
 and so on.
+
 ![solve](./solve.png)
 
 Finally, we got the decrypted flag : `CRYPTOISFUN`
