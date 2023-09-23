@@ -9,7 +9,7 @@
 The one time pad can be cryptographically secure, but not when you know the key. Can you solve this? We've given you the encrypted flag, key, and a table to help `UFJKXQZQUNB` with the key of `SOLVECRYPTO`. Can you use this [`table`](./table.txt) to solve it?.
 
 ## Solution
-The challenge provided a [table.txt](./table.txt). From the table, we know that this is an Virgene cipher table.
+The challenge provided a [table.txt](./table.txt). From the table, we know that this is an Vigenere cipher table.
 So we can decrypt the encrypted flag with the key provided : `SOLVECRYPTO`
 
 The way to decrypt it is using the `key` compared with the table.
