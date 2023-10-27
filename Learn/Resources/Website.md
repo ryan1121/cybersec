@@ -27,6 +27,10 @@ https://www.boxentriq.com/code-breaking/cipher-identifier
 
 > This tool uses AI/Machine Learning technology to recognize over 25 common cipher types and encodings including: Caesar Cipher, Vigenère Cipher (including the autokey variant), Beaufort Cipher (including the autokey variant), Playfair Cipher, Two-Square/Double Playfair Cipher, Columnar Transposition Cipher, Bifid Cipher, Four-Square Cipher, Atbash Cipher, and many more! 
 
+### Hash/Unhash Website
+https://md5hashing.net/
+
+This is a website for the usage of hash/unhashing.
 
 ## Payload List
 ### XML External Entity (XXE) Injection Payload List
