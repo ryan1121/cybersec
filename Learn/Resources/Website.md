@@ -35,3 +35,15 @@ This is a website for the usage of hash/unhashing.
 ## Payload List
 ### XML External Entity (XXE) Injection Payload List
 https://github.com/payloadbox/xxe-injection-payload-list
+
+
+## Resources
+### Updates from Threat Analysis Group (TAG) Google
+https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape/
+
+> Research on state-sponsored hackers from Threat Analysis Group (TAG) 
+
+### ThreatHunting Project
+https://github.com/ThreatHuntingProject/ThreatHunting
+> An informational repository about threat hunting from The ThreatHunting Project 
+
