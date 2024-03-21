@@ -47,3 +47,17 @@ https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-tr
 https://github.com/ThreatHuntingProject/ThreatHunting
 > An informational repository about threat hunting from The ThreatHunting Project 
 
+
+## Security Website and Blogs
+### CSO online
+https://www.csoonline.com/asean/
+> CSO provides news, analysis and research on a broad range of security and risk management topics. Areas of focus include information security, physical security, business continuity, identity and access management, loss prevention and more.
+
+### Krebs on Security
+https://krebsonsecurity.com/
+> Krebs on Security is an in-depth security blog created by former Washington Post reporter, Brian Krebs. This blog covers security news and investigations into various cyber attacks. Accessing the Krebs blog is a good way to stay up-to-date on the latest security news and happenings around the world.
+
+
+### Dark reading
+https://www.darkreading.com/
+> Dark Reading is a popular website for security professionals. This site provides information about various security topics like analytics and application security, mobile and cloud security, as well as the Internet of Things, IOT.
